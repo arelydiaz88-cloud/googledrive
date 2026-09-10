@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/a1", "destination": "https://drive.google.com/file/d/1ywRO9Ms-xWQ4fN_iz9kYr4rr0WCBvKMj/view?usp=sharing" },
+    { "source": "/a2", "destination": "https://drive.google.com/file/d/1l0TkRceVHjhQW79_lVn0_2-unNFXm2Az/view?usp=sharing" },
+    { "source": "/a3", "destination": "https://drive.google.com/file/d/1UWTubNeEbJMylbRUDv_mhzta9I7wDkiK/view?usp=sharing" },
+    { "source": "/a4", "destination": "https://drive.google.com/file/d/1DLR5XyEA419KxfIWNS7KhzWFUvGNDIxO/view?usp=sharing" },
+    { "source": "/a5", "destination": "https://drive.google.com/file/d/1vQiZgIv4KZyE9nRFvNpqjmGVOCknNiuA/view?usp=sharing" },
+	{ "source": "/a6", "destination": "https://drive.google.com/file/d/1q8FjYOxjXgDVVztUc0voa3Q1cQ4nsiNU/view?usp=sharing" }
+  ]
+}
