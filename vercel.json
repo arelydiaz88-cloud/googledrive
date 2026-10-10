@@ -1,4 +1,12 @@
 {
+	  "headers": [
+    {
+      "source": "/a1",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store, no-cache, must-revalidate" }
+      ]
+    }
+  ],
   "redirects": [
     { "source": "/forum/viewtopic.php?t=1859197", "destination": "https://nnmclub.to/" },
     { "source": "/paypal10euros", "destination": "https://payment.shieldclimb.com/pay.php?address=2iSKYwKW4vVzW%2BSbApmF1oVt6isuYo29pfd0bGd0ykEbMbJ%2F43U7RdYPuQSIBnRo6LR6fJDwhkxoyhP5itLsjA%3D%3D&amount=10&provider=hosted&email=DDM1985130%40gmail.com&currency=EUR/" },
