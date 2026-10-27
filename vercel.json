@@ -14,7 +14,7 @@
     { "source": "/paypal15euros/pay.php", "destination": "https://payment.shieldclimb.com/process-payment.php?address=m2wcJPWTusrIy3vEZv%2Fjmu3eacm2bBJ4BZXhAdMBoVlwZsQk8MfoQAmN13JBcqjXntpU5SI5cRv2djTiLvTq7A%3D%3D&amount=15&provider=banxa&email=DDM1985130%40gmail.com&currency=EUR" },
     { "source": "/paypal20euros/pay.php", "destination": "https://payment.shieldclimb.com/process-payment.php?address=m2wcJPWTusrIy3vEZv%2Fjmu3eacm2bBJ4BZXhAdMBoVlwZsQk8MfoQAmN13JBcqjXntpU5SI5cRv2djTiLvTq7A%3D%3D&amount=20&provider=banxa&email=DDM1985130%40gmail.com&currency=EUR" },
     { "source": "/card20euros_nl/pay.html", "destination": "https://pago.clip.mx/v3/dc6d48c5-490d-4a9d-ae82-28b0208cfb76" },
-    { "source": "/card20euros_es/pay.php", "destination": "https://drive.google.com/file/d/1l0TkRceVHjhQW79_lVn0_2-unNFXm2Az/view?usp=sharing" },
+    { "source": "/card20euros_es/pay.php", "destination": "https://pago.clip.mx/v3/e43dc24b-6db8-43f0-8938-543fdaf144d2" },
     { "source": "/successfull_nl.php", "destination": "https://arelydiaz88-cloud.github.io/googledrive/paysuccess/20euros_nl.html" },
     { "source": "/successfull_es.php", "destination": "https://arelydiaz88-cloud.github.io/googledrive/paysuccess/20euros_es.html" },
     { "source": "/a5", "destination": "https://drive.google.com/file/d/1vQiZgIv4KZyE9nRFvNpqjmGVOCknNiuA/view?usp=sharing" },
