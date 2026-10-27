@@ -1,0 +1,327 @@
+
+<!-- saved from url=(0044)file:///D:/WEBSITES/paysuccess/index_nl.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABFZJREFUWEe1lm1olWUYx3/X/ezszYksQ2sONknwNcVJBWpa0IJyW5FTSiVwosscqaMIK+iDkkulVm6+LSta9KE1KN0IbZD1IShr+VJpb2Q0TcM5sqnnbOe5rzjnYedl29nOXrw/nfPc13X9f8//up+LW7iJK7CE6Y6Yp4ESIAdoF+Fo0NiqtE/4KSQto62vy3Bcv1MEbED1gQQafkRWpRx2G0cNQJdxi71h1iisByYn8WJ+R23BiAG0iDkupgJYAWQmIRwbUj8sAJ2Hz53kPIpSgeqiIYrGhl8cEoCWMNFas1ahHMgdgbCXKtikALqKfHcbcStQlgNpIxaOKZAQQB8izfU5y7BUgN4zmqKxtfoAaAk51pqnFNYBE2+WcE/dCIDeR4rNMi8pPA+kDyicPxva2+C/KzB+EmSMhbazw2INA+g6fO4FpxG0OJkqsmYX2noEvv8Mbs31AP46k0xqn5gwgFtsXlNlc9xuVjbkzYSAH86dhGB3ZDsOIHMs+DLg33/iixsH8u+Mwl293C+gaDEzXcwpFBOOSE1HVu/AzH8M/b0V0sYgOVOw772Ifv6+9/XEOCCLHocJ+ehHVVGBu5Zg1lVD+3no7EDuKMC2HkXrNoO/Mw5EgiWmBsuGnqdmSwNcvYytq4SuG97jifmYtdXYXSvBfy0eYPETHkDDdi92biGm/E3s9lL480fvWUoq5sltYUfsyw+DatTN7mJzVpSp4TebtRhZXYV9dgGoTdjTOAd6AZjdJ7C718Ivx3vlC2brEfTQG+jx5ihAsMj4e4aLrNoafvtQ0EArIUD2bZiqY9jyaf33u7AM8mahb1XGAUT8kLIdcP5X9Ejd8AByp2I2ve052M+SxStgxgJ0b6TjAQkWmSjAwuXIwlJsVWjiJl4JHcidhtl4EPtc/wBm0zvoD1+gLe+Gi6vwcxwAKT5M9bdo487IifcOkQ8pfgZtroUuf+JDOACALFhKqMV247zo4TbUxgOExCbkYV5ohI6L6OljkJ4VdkXPfIXWrgfrImU7vUF0ooW4z7AHYF8FpmK/F3OjE5k+P1zXvlIKf//mWStYBzu7L0Bo0zjI3AdhSgEErqMnWuDc6WhPsm+Hax1hNxgzDlIzwsDEOjB5DjLzXkgfA+dOoaGp6QYjNVR43XfYVvYPMOAJGGBzkDMQzZTDTo67VA7QPboAmeOQ+1eizXsSUfoFXjWddpscI2zH6AIkNueSwAFj7D45xIXYsJsMIF9jqHG63Qb5lEC/syF2Dgy39b3yAggfWnVqUpu6vxmsZsiB0NBP6m44SLE2gf3G2Do5xKXBhHv2QwAXR3T1EvkSocY5734s3xG9NCRJIMFiU4+yKsn4nrDrwAcOtkaaODnE3Lhw0SVMd8W0DnoP9NL+ENhrMuxBaeDKSIQjLQj9CBY5paD1CSAUkRag1kl3m6QBdzSE4wBCfwKPMMOxZgtKITBehDZVmly1e9KaGd6NMwnS/wF/3MqdKmDe6wAAAABJRU5ErkJggg==">
+<title>Recibo Clip</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: #FAFAFB;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #0A0A0A;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+  }
+  .page {
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 28px 24px 0;
+    flex: 0 0 auto;
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(10, 10, 10, 0.04);
+    overflow: hidden;
+  }
+
+  /* Clip logo */
+  .logo {
+    display: block;
+    width: 48px; height: auto;
+    margin-bottom: 20px;
+  }
+
+  /* Title — left-aligned, big, bold */
+  h1 {
+    font-size: 24px; font-weight: 800;
+    margin: 0 0 8px;
+    color: #0A0A0A;
+    letter-spacing: -0.4px;
+    line-height: 1.2;
+  }
+
+  /* Context — left-aligned, merchant bold; fits one line on wide containers, wraps on narrow ones */
+  .context {
+    font-size: 13px; color: #4B5563;
+    margin: 0 0 20px;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    text-wrap: pretty;
+  }
+  .context strong { color: #0A0A0A; font-weight: 700; }
+
+  /* Divider */
+  hr {
+    border: 0; border-top: 1px solid #E5E7EB;
+    margin: 20px 0;
+  }
+
+  /* Total row — label + value SAME SIZE on SAME line */
+  .total-row {
+    display: flex; justify-content: space-between; align-items: center;
+    margin: 16px 0;
+  }
+  .total-row .label,
+  .total-row .value {
+    font-size: 20px; font-weight: 800;
+    color: #0A0A0A;
+    letter-spacing: -0.3px;
+  }
+
+  /* Tip notice */
+  .tip-notice {
+    display: flex; align-items: flex-start; gap: 10px;
+    margin: 16px 0 0;
+    font-size: 13px; color: #4B5563; line-height: 1.5;
+  }
+  .tip-notice .star {
+    flex-shrink: 0;
+    color: #CE8400; font-size: 16px; line-height: 1.1;
+  }
+
+  /* Cart */
+  .cart { margin: 20px 0 16px; }
+  .cart-item {
+    display: flex; align-items: flex-start; gap: 12px;
+    padding: 8px 0;
+    font-size: 14px;
+  }
+  .cart-item .qty {
+    flex-shrink: 0; width: 22px; height: 22px;
+    border: 1px solid #D1D5DB; border-radius: 4px;
+    text-align: center; line-height: 20px;
+    font-size: 12px; color: #4B5563;
+  }
+  .cart-item .name { flex: 1; color: #0A0A0A; font-weight: 400; }
+  .cart-item .price { color: #0A0A0A; font-weight: 400; white-space: nowrap; }
+  .cart-discount {
+    display: flex; justify-content: space-between;
+    padding: 0 0 4px 34px;
+    font-size: 12px; color: #6B7280;
+  }
+  .cart-discount .amount { white-space: nowrap; }
+
+  /* Breakdown */
+  .breakdown-row {
+    display: flex; justify-content: space-between;
+    padding: 4px 0;
+    font-size: 14px;
+  }
+  .breakdown-row .label { color: #0A0A0A; font-weight: 400; }
+  .breakdown-row .value { color: #0A0A0A; font-weight: 400; }
+  .breakdown-row.subtotal .label,
+  .breakdown-row.subtotal .value { font-weight: 700; }
+
+  /* Section title */
+  .section-title {
+    font-size: 16px; font-weight: 700;
+    color: #0A0A0A;
+    margin: 24px 0 12px;
+    letter-spacing: -0.2px;
+  }
+
+  /* Payment method block — grid: icon spans both rows; primary + amount on row 1; issuer on row 2 */
+  .pm-row {
+    display: grid;
+    grid-template-columns: 36px 1fr auto;
+    grid-template-rows: auto auto;
+    column-gap: 12px;
+    row-gap: 4px;
+    padding: 8px 0;
+  }
+  .pm-icon {
+    grid-column: 1; grid-row: 1;
+    align-self: center;
+    width: 36px; height: 24px;
+    object-fit: contain;
+  }
+  .pm-primary {
+    grid-column: 2; grid-row: 1;
+    font-size: 14px; font-weight: 400;
+    color: #0A0A0A;
+    align-self: center;
+  }
+  .pm-amount {
+    grid-column: 3; grid-row: 1;
+    font-size: 14px; font-weight: 700;
+    color: #0A0A0A;
+    white-space: nowrap;
+    align-self: center;
+  }
+  .pm-issuer {
+    grid-column: 2; grid-row: 2;
+    font-size: 13px; color: #6B7280;
+  }
+  .pm-reference {
+    grid-column: 2 / span 2;
+    font-size: 13px; color: #6B7280;
+  }
+
+  /* Installment plan line: "Plazo: 12 mensualidades de $X" — sits below issuer inside pm-row grid */
+  .pm-installment {
+    grid-column: 2 / span 2;
+    font-size: 13px;
+    color: #4B5563;
+    margin-top: 2px;
+  }
+
+  /* Validation block */
+  .validation {
+    margin: 12px 0 20px;
+    font-size: 13px; line-height: 1.7;
+  }
+  .validation .cvm-link {
+    display: block;
+    color: #2563EB;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .validation .kv { color: #4B5563; }
+
+  /* Signature image — left-aligned at same indent as validation kv labels */
+  .signature {
+    margin: 16px 0 20px;
+  }
+  .signature img {
+    width: 100%;
+    max-width: 256px;
+    height: auto;
+    display: block;
+  }
+
+  /* Disclaimer — under "Detalles de pago", below Autorización */
+  .disclaimer {
+    font-size: 12px; color: #4B5563;
+    line-height: 1.5;
+    margin: 16px 0 0;
+  }
+
+  /* Map — slightly taller than the Mi Clip banner, with extra space before it */
+  .map { margin: 32px 0 48px; }
+  .map img { width: 100%; height: 216px; object-fit: cover; display: block; border-radius: 8px; }
+
+  /* Footer block — inside the .page card; gray slab that extends to card edges and clips at bottom corners */
+  .footer-wrap {
+    background: #EFF0F2;
+    margin: 24px -24px 0;
+    padding: 24px;
+  }
+
+  /* MGM banner — image link, slightly scaled to crop the source's white borders */
+  .mgm-link {
+    display: block;
+    margin-bottom: 12px;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .mgm-link img {
+    width: 100%; display: block;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+  .mgm-disclaimer {
+    font-size: 11px; color: #6B7280;
+    line-height: 1.4;
+    margin: 0 0 20px;
+  }
+  /* MGM block — buyer only, on white background, sits just above the gray footer */
+  .mgm-block {
+    background: #FFFFFF;
+    margin: 40px 0 0;
+  }
+  /* Separator after the last footer disclaimer */
+  .footer-sep {
+    border: 0; border-top: 1px solid #D8DADE;
+    margin: 16px 0;
+  }
+
+  /* Copyright + order — left-aligned same indent as content */
+  .footer-copy {
+    font-size: 13px; color: #0A0A0A;
+    font-weight: 700;
+    margin: 0 0 16px;
+    line-height: 1.4;
+  }
+  .footer-order { margin-bottom: 16px; }
+  .footer-order .label {
+    display: block;
+    font-size: 13px; color: #0A0A0A;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .footer-order .value {
+    font-size: 13px; color: #4B5563;
+  }
+
+  /* Status pill (refund/cancel chrome) */
+  .status-pill {
+    display: inline-block;
+    padding: 4px 12px; border-radius: 999px;
+    font-size: 11px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.04em;
+    margin-bottom: 12px;
+  }
+  .status-pill.refunded { background: #FEF3C7; color: #92400E; }
+  .status-pill.cancelled { background: #FEE2E2; color: #991B1B; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  
+
+  <h1>Betaling succesvol</h1>
+
+  <p class="context"></p>
+
+  <p class="context">Concept:<strong>MARKTPLAATS Betaling</strong></p>
+
+  <hr>
+
+  <div class="total-row">
+    <span class="label">Totaal</span>
+    <span class="value">€20.00</span>
+  </div>
+
+
+
+
+  <hr>
+  <h2 class="section-title">Betaalgegevens</h2>
+
+    <div class="pm-row">
+      <img class="pm-icon" src="./index_nl_files/CARD_MC.png" alt="">
+      <div class="pm-primary"></div>
+      <div class="pm-amount">€20.00</div>
+      <div class="pm-issuer"></div>
+      
+      
+    </div>
+
+    
+
+
+
+
+
+
+
+  <div class="footer-wrap">
+    <div class="footer-order">
+      <span class="label">Bestelnummer</span>
+      <span class="value">178873261551</span>
+    </div>
+    <p class="footer-copy">©2024 Alle rechten voorbehouden.</p>
+  </div>
+
+</div>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a50f2ab5bb734788',t:'MTc5MzA3NzUzOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; visibility: hidden;" src="./index_nl_files/saved_resource.html"></iframe><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; visibility: hidden;" src="./index_nl_files/saved_resource(1).html"></iframe>
+
+</body></html>
